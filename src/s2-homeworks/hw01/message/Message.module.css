@@ -1,17 +1,32 @@
 .message {
-
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding-top: 192px;
+    background-color: #0080ff;
 }
 
 .imageAndText {
+background-color: #212A34;
 
 }
 
 .imageAndText img {
-
+    position: relative;
+    width: 48px;
+    height: 48px;
 }
 
 .text {
-
+    position: absolute;
+    left: 0;
+    right: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #ff0000;
 }
 
 .text:after {
@@ -27,5 +42,7 @@
 }
 
 .time {
-
+    width: 26px;
+    height: 12px;
+    background-color: #4ea51c;
 }
